@@ -75,6 +75,7 @@ NAME            NAMESPACE       REVISION        UPDATED                         
 nginx-ingress   default         1               2019-10-18 11:21:44.115902395 +0800 CST deployed        nginx-ingress-1.24.0
 
 # 查看 nginx-ingress 所有的 service
+
 $ kubectl get svc -l app=nginx-ingress
 NAME                            TYPE           CLUSTER-IP     EXTERNAL-IP                 PORT(S)                      AGE
 nginx-ingress-controller        LoadBalancer   10.101.64.64   172.17.68.39,172.17.68.40   80:30285/TCP,443:31094/TCP   7m19s
