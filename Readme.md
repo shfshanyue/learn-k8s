@@ -12,9 +12,10 @@
 
 ## 资源部署
 
-1. [部署你的第一个应用: Pod 与 Deployment](https://github.com/shfshanyue/learn-k8s/blob/master/pod.md)
+1. [部署你的第一个应用: Pod，Deployment 与 Service](https://github.com/shfshanyue/learn-k8s/blob/master/pod.md)
 1. [通过外部域名访问你的应用: Service 与 nginx]()
 1. [通过外部域名访问你的应用: Ingress]()
+1. [为你的域名添加 https]()
 1. [部署 redis: 有状态应用 (stateful application)]()
 1. [资源分配，限额与抢占]()
 
