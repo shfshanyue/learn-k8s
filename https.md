@@ -1,8 +1,11 @@
 ---
 title: 在 kubernetes 上自动为你的域名配置 https
-keywords: lets encrypt,kubernetes,k8s,https,自动生成证书,k8s上生成证书,cert-manager
+keywords: lets encrypt,kubernetes,k8s,https,自动生成证书,k8s上生成证书,cert-manager,devops
 date: 2019-10-27 22:00
-
+tags:
+  - devops
+  - docker
+  - k8s
 ---
 
 # 在 kubernetes 中自动为域名配置 https
@@ -17,8 +20,8 @@ date: 2019-10-27 22:00
 
 **在本篇文章之前，假设此时你已经能够配置 `Ingress` 并成功访问到你的域名**，如果没有，你可以参考本系列文章的以上几篇
 
-+ 部署你的第一个应用: Pod，Application 与 Service
-+ 通过外部域名访问你的应用: Ingress
++ [部署你的第一个应用: Pod，Application 与 Service](https://shanyue.tech/k8s/pod)
++ [通过外部域名访问你的应用: Ingress](https://shanyue.tech/k8s/ingress)
 
 <!--more-->
 

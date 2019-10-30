@@ -3,10 +3,9 @@ title: "使用 k8s 部署你的第一个应用: Pod, Deployment 与 Service"
 keywords: devops,k8s,kubernetes,k8s pod,部署应用,docker
 description: 当我们学习如何在 k8s 上部署应用时，部署一个简单的 nginx，能够访问到它的配置页面。由于它五脏俱全，功能简单，无状态，可以当做 k8s 部署应用的 hello, world。本篇文章将学习如何使用 Pod，Deployment 与 Service 开始部署第一个应用
 date: 2019-10-30 06:00
-tags
+tags:
   - devops
   - k8s
-
 ---
 
 # 部署你的第一个应用: Pod，Deployment 与 Service 
