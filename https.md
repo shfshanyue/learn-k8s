@@ -31,10 +31,11 @@ tags:
 
 如果想使用 `let's encrypt` 自动为 `Ingress` 配置 `https`。在部署时需要为 helm chart 指定以下参数。
 
-``` shell
+``` bash
 ingressShim.defaultIssuerName=letsencrypt-prod
 ingressShim.defaultIssuerKind=Issuer
 ```
+
 
 这里有关于 [Issuers的文档](https://docs.cert-manager.io/en/latest/reference/issuers.html)
 
@@ -130,6 +131,15 @@ annotations:
   kubernetes.io/ingress.class: "nginx"
   cert-manager.io/issuer: "letsencrypt-prod"
 ```
+
+或者
+
+``` yaml
+annotations:
+  kubernetes.io/ingress.class: "nginx"
+  kubernetes.io/tls-acme: 'true'
+```
+
 
 关于 `Ingress` 的完整配置如下，你也可以在我的github上查看 `Deployment`，`Service` 到 `Ingress` 完整的配置: [shfshanyue/learn-k8s:/conf/nginx.yaml](https://github.com/shfshanyue/learn-k8s/blob/master/conf/nginx.yaml)
 

@@ -101,7 +101,7 @@ Commercial support is available at
 
 此时我们可以使用 `kubectl exec` 进入 `Pod` 的内部容器。如果 `Pod` 中有多个容器，使用 `kubectl exec -c` 指定容器
 
-``` shell
+``` bash
 $ kubectl exec -it nginx sh
 ```
 
@@ -341,4 +341,4 @@ spec:
     targetPort: 80
 ```
 
-当我们仍然需要把服务暴露给互联网，那我们如何在集群外访问域名呢？
+但我们仍然需要把服务暴露给互联网，那我们如何在集群外访问域名呢？

@@ -21,13 +21,13 @@
 
 ## 工具与运维
 
-1. [使用 helm 管理集群]()
-1. [使用 helm 部署应用]()
+1. [部署利器 Helm 安装及简介](https://github.com/shfshanyue/learn-k8s/blob/master/helm.md)
 1. [搭建图形可视化化界面 - Dashboard]()
 1. [更好用的命令行工具 - k9s]()
 
 ## k8s 与微服务
 
+1. [易用轻量的持续集成方案: helm 结合 drone](https://github.com/shfshanyue/learn-k8s/blob/master/deploy-drone.md)
 1. [使用 prometheus 与 grafana 做数据可视化]()
 1. [使用 ELK 收集日志]()
 

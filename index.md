@@ -1,6 +1,5 @@
 ---
 title: K8s-Install
-date: 2019-07-13T11:09:57+08:00
 thumbnail: ""
 categories:
   - 前端
@@ -9,6 +8,7 @@ tags:
   - node
 ---
 
+date: 2019-07-13T11:09:57+08:00
 ## kubectl 基础命令
 
 ### kubectl get pods
@@ -188,13 +188,5 @@ const payload = {
 ## kubernetes plugin 与 knew
 
 ## k8s cheatsheets
-
-### kubectl edit pvc 
-
-`kubectl edit persistentvolumeclaims`
-
-### kubectl get cs
-
-`kubectl get componentstatus`
 
 ## k8s 术语
