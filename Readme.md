@@ -15,18 +15,22 @@
 1. [部署你的第一个应用: Pod，Deployment 与 Service](https://github.com/shfshanyue/learn-k8s/blob/master/pod.md)
 1. [通过外部域名访问你的应用: Service 与 nginx]()
 1. [通过外部域名访问你的应用: Ingress](https://github.com/shfshanyue/learn-k8s/blob/master/ingress.md)
+1. [workload]
+1. [depoloy 时发生了什么]
 1. [自动为你的域名添加 https](https://github.com/shfshanyue/learn-k8s/blob/master/https.md) · [(掘金)](https://juejin.im/post/5db8d94be51d4529f73e2833)
 1. [部署 redis: 有状态应用 (stateful application)]()
 1. [资源分配，限额与抢占]()
 
 ## 工具与运维
 
-1. [部署利器 Helm 安装及简介](https://github.com/shfshanyue/learn-k8s/blob/master/helm.md)
+1. [部署利器 Helm 安装及简介](./helm.md)
 1. [搭建图形可视化化界面 - Dashboard]()
 1. [更好用的命令行工具 - k9s]()
 
 ## k8s 与微服务
 
+1. [ES 部署!!!!!]()
+1. [Kntive]
 1. [易用轻量的持续集成方案: helm 结合 drone](https://github.com/shfshanyue/learn-k8s/blob/master/deploy-drone.md)
 1. [使用 prometheus 与 grafana 做数据可视化]()
 1. [使用 ELK 收集日志]()

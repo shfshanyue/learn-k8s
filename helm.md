@@ -11,6 +11,8 @@ tags:
 
 # 部署利器: helm
 
+> 山月最近想起来自己还有一个 k8s 集群，决定输出一些云原生的文章，在我的 github 仓库 <https://github.com/shfshanyue/learn-k8s> 可以看到。本篇文章主要介绍 helm，说到它，实在是太简单太好用，在 k8s 上部署应用就和傻瓜似的...傻瓜式一键安装，你值得拥有
+
 `helm` 是基于 `kubernetes` 的包管理器。它之于 `kubernetes` 就如 `yum` 之于 `centos`，`pip` 之于 `python`，`npm` 之于 `javascript`。
 
 那 `helm` 的引入对于管理集群有哪些帮助呢？可体现在基础运维建设及业务应用两方面
@@ -165,6 +167,8 @@ $ tree --dirsfirst
 
 ``` bash
 $ helm repo add stable https://apphub.aliyuncs.com/stable
+
+$ helm repo add bitnami https://charts.bitnami.com/bitnami
 ```
 
 另外，对于一些大软件公司也会维护自己的 Chart，如 `gitlab`，`elasti`
